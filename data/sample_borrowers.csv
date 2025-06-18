@@ -1,0 +1,3 @@
+id,industry,product_type,purpose,country,loan_amount,currency,loan_term,payback_method
+12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest
+23456,Transport,E-bike parts,Growth,Netherlands,1500000,EUR,18,Interest

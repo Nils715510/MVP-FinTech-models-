@@ -1,0 +1,3 @@
+id,industries,purpose,country,loan_amount,currency,loan_term,payback_method
+54321,"Technology,Sales",Product development,UK,200000,GBP,36,Interest
+65432,"Transport,Logistics",Growth,Netherlands,1600000,EUR,18,Interest

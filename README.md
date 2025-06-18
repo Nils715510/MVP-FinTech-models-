@@ -4,6 +4,8 @@
 
 This is the MVP for CapitalConnect — a peer-to-peer (P2P) lending platform that uses structured data to match borrowers and lenders efficiently.
 
+CapitalConnect operates under the European Crowdfunding Service Providers Regulation (ECSPR), enabling secure cross-border P2P lending between EU member states. This scope ensures regulatory consistency, investor protection, and a sufficient degree of diversification within a shared financial framework.
+
 ## Features
 
 - Match borrowers and lenders based on industry, country, loan amount, and other structured criteria

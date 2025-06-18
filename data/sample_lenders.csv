@@ -1,3 +1,5 @@
-id,industries,purpose,country,loan_amount,currency,loan_term,payback_method
-54321,"Technology,Sales",Product development,UK,200000,GBP,36,Interest
-65432,"Transport,Logistics",Growth,Netherlands,1600000,EUR,18,Interest
+id,industries,purpose,country,loan_amount,currency,loan_term,payback_method,description
+54321,"Technology,Sales",Product development,UK,200000,GBP,36,Interest,"I can issue a loan"
+65432,"Transport,Logistics",Growth,Netherlands,1600000,EUR,18,Interest,"I am seeking the most creditworthy borrowers in the world"
+54321,"Technology;Healthcare",Inventory,Germany,2100000,EUR,24,Interest,"Interested in supporting scalable tech or health ventures in Europe."
+65432,"Technology",Working capital,Netherlands,1500000,EUR,18,Interest,"Looking to fund medical or AI breakthroughs with real-world impact."

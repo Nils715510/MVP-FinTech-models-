@@ -1,3 +1,5 @@
-id,industry,product_type,purpose,country,loan_amount,currency,loan_term,payback_method
-12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest
-23456,Transport,E-bike parts,Growth,Netherlands,1500000,EUR,18,Interest
+id,industry,product_type,purpose,country,loan_amount,currency,loan_term,payback_method,description
+12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest,"I want a loan"
+23456,Transport,E-bike parts,Growth,Netherlands,1500000,EUR,18,Interest,"I am the most creditworthy borrower in the world"
+12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest,"We need funds to expand production of a new AI chip that boosts machine learning efficiency."
+23456,Healthcare,Vaccine research,Working capital,Netherlands,1500000,EUR,18,Interest,"Our lab is scaling up a vaccine and seeks working capital to meet regulatory demands."

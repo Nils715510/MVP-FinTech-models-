@@ -1,5 +1,6 @@
-id,industries,purpose,country,loan_amount,currency,loan_term,payback_method,description
-54321,"Technology,Sales",Product development,UK,200000,GBP,36,Interest,"I can issue a loan"
-65432,"Transport,Logistics",Growth,Netherlands,1600000,EUR,18,Interest,"I am seeking the most creditworthy borrowers in the world"
-54321,"Technology;Healthcare",Inventory,Germany,2100000,EUR,24,Interest,"Interested in supporting scalable tech or health ventures in Europe."
-65432,"Technology",Working capital,Netherlands,1500000,EUR,18,Interest,"Looking to fund medical or AI breakthroughs with real-world impact."
+id,industry,purpose,country,loan_amount,currency,loan_term,payback_method,description
+L54321,"Technology,Sales",Product development,Spain,200000,EUR,36,Interest,I can issue a loan
+L65432,"Transport,Logistics",Growth,Netherlands,1600000,EUR,18,Interest,I am seeking the most creditworthy borrowers in the world
+L12345,Technology;Healthcare,Inventory,Germany,2100000,EUR,24,Interest,Interested in supporting scalable tech or health ventures in Europe.
+L23456,Technology,Working capital,Netherlands,1500000,EUR,18,Interest,Looking to fund medical or AI breakthroughs with real-world impact.
+L44093,No preference,R&D,Germany,100000,EUR,36,Interest,"I am looking to invest in hardware, specifically self-operating machines. "

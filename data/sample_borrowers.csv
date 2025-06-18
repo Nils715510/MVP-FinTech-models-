@@ -1,5 +1,6 @@
-id,industry,product_type,purpose,country,loan_amount,currency,loan_term,payback_method,description
-12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest,"I want a loan"
-23456,Transport,E-bike parts,Growth,Netherlands,1500000,EUR,18,Interest,"I am the most creditworthy borrower in the world"
-12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest,"We need funds to expand production of a new AI chip that boosts machine learning efficiency."
-23456,Healthcare,Vaccine research,Working capital,Netherlands,1500000,EUR,18,Interest,"Our lab is scaling up a vaccine and seeks working capital to meet regulatory demands."
+id,industry,product_type,purpose,country,loan_amount,currency,loan_term,payback_method,description,interest_rate
+B12345,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest,"I want a loan",2.0
+B23456,Transport,E-bike parts,Growth,Netherlands,1500000,EUR,18,Interest,"I am the most creditworthy borrower in the world",1.5
+B54321,Technology,Computer chip,Inventory,Germany,2000000,EUR,24,Interest,"We need funds to expand production of a new AI chip that boosts machine learning efficiency.",3.0
+B65432,Healthcare,Vaccine research,Working capital,Netherlands,1500000,EUR,18,Interest,"Our lab is scaling up a vaccine and seeks working capital to meet regulatory demands.",1.8
+B88610,Technology,No preference,R&D,Germany,50000,EUR,24,Interest,"I need an investment related to my hardware store that specializes in woodworking machinery...",2.5

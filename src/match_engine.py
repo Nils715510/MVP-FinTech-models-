@@ -1,28 +1,47 @@
-def simple_match(borrower, lender):
+def simple_match(borrower, lender, verbose=False):
     score = 0
     details = []
 
-    if borrower["industry"] in lender["industries"]:
+    def match_or_no_preference(val1, val2):
+        return val1 == "No preference" or val2 == "No preference" or val1 == val2
+
+    if match_or_no_preference(borrower["industry"], lender["industry"]):
         score += 1
         details.append("industry")
-    if borrower["purpose"] == lender["purpose"]:
+
+    if match_or_no_preference(borrower["purpose"], lender["purpose"]):
         score += 1
         details.append("purpose")
-    if borrower["country"] == lender["country"]:
+
+    if match_or_no_preference(borrower["country"], lender["country"]):
         score += 1
         details.append("country")
-    if abs(borrower["loan_amount"] - lender["loan_amount"]) / borrower["loan_amount"] <= 0.1:
-        score += 1
-        details.append("loan_amount")
+
+    try:
+        if abs(float(borrower["loan_amount"]) - float(lender["loan_amount"])) / float(borrower["loan_amount"]) <= 0.1:
+            score += 1
+            details.append("loan_amount")
+    except (ValueError, ZeroDivisionError, TypeError):
+        pass
+
     if borrower["currency"] == lender["currency"]:
         score += 1
         details.append("currency")
-    if abs(borrower["loan_term"] - lender["loan_term"]) <= 6:
-        score += 1
-        details.append("loan_term")
-    if borrower["payback_method"] == lender["payback_method"]:
+
+    try:
+        if abs(int(borrower["loan_term"]) - int(lender["loan_term"])) <= 6:
+            score += 1
+            details.append("loan_term")
+    except:
+        pass
+
+    if match_or_no_preference(borrower["payback_method"], lender["payback_method"]):
         score += 1
         details.append("payback_method")
 
+    if verbose:
+        print(f"Matching borrower {borrower.get('id')} with lender {lender.get('id')} → Score: {score}")
+
     return score, details
+
 

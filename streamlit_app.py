@@ -67,10 +67,25 @@ if not st.session_state.logged_in:
 
         elif user_action == "Join":
             st.sidebar.header("Fill in your profile")
-            industries = ["Technology", "Retail", "Finance", "Agriculture", "Healthcare", "Transport"]
-            purposes = ["Inventory", "Expansion", "R&D", "Growth", "Working capital"]
-            countries = ["Netherlands", "Germany", "France", "Spain", "Italy"]
-            methods = ["Interest", "Amortized", "Balloon Payment", "Revenue Share", "Equity"]
+            industries = [
+                "Technology", "Retail", "Finance", "Agriculture", "Healthcare", "Transport", "Logistics", "Energy",
+                "Manufacturing", "Construction", "Education", "Media", "Hospitality", "Real Estate", "Telecommunications",
+                "Automotive", "Pharmaceuticals", "Food & Beverage", "Legal", "Consulting", "Other"
+            ]
+
+            purposes = [
+                "Inventory", "Expansion", "R&D", "Growth", "Working capital", "Product development",
+                "Operational costs", "Marketing", "Hiring", "Sustainability", "Socially responsible project", "Other"
+            ]
+            countries = [
+                "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland",
+                "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg",
+                "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden"
+            ]
+            
+            methods = [
+                "Interest", "Amortized", "Balloon Payment", "Revenue Share", "Equity", "Emotional reward"
+            ]
 
             industry = st.sidebar.selectbox("Industry", industries)
             purpose = st.sidebar.selectbox("Purpose", purposes)
